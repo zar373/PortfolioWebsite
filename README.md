@@ -1,8 +1,7 @@
 # Zargul Ansari - Portfolio Website
 
-Welcome to my personal portfolio website! I am Zargul Ansari, a passionate **Software Engineer** with a deep interest in **Web Development**, **Data Science**, **Machine Learning**, and **Artificial Intelligence**. This website showcases my skills, projects, and achievements. 
+Welcome to my personal portfolio website! I am Zargul Ansari, a passionate **Data Scientist**. This website showcases my skills, projects, and achievements. 
 
-You can explore my work, get in touch with me, or even see my latest blog posts. Whether you're a recruiter, a fellow developer, or someone looking to collaborate on exciting projects, this portfolio highlights my journey, expertise, and commitment to continuous learning.
 
 ## 🖥️ **Live Portfolio**
 
@@ -53,6 +52,6 @@ npm install
 
 Open your browser and go to `http://localhost:3000` to view the website.
 
-##✨ **Contributions**
+✨ **Contributions**
 
 Feel free to explore my code and contribute to the project! You can submit pull requests, report issues, or just leave feedback. Contributions are always welcome.

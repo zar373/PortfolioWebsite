@@ -36,7 +36,7 @@ const HeroSection = () => {
               />
             </h1>
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a data-driven enthusiast with expertise in Python, SQL, and building seamless data pipelines on Azure platforms. With a strong foundation in data analysis, visualization, and machine learning, I like to transform raw data into meaningful insights. Passionate about innovation and growth, I continuously challenge myself through hands-on projects and lifelong learning. 🚀
+            I&apos;m a data-driven enthusiast with expertise in Python, SQL, and building seamless data pipelines on Azure platforms. With a strong foundation in data analysis, visualization, and machine learning, I like to transform raw data into meaningful insights. Passionate about innovation and growth, I continuously challenge myself through hands-on projects and lifelong learning. 🚀
             </p>
             <div>
               {/* <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#f088c3] via-[#c36099] to-[#7b4b9f] hover:bg-slate-200 transition-all duration-300 text-white hover:text-slate-900 font-medium shadow-lg hover:shadow-xl">

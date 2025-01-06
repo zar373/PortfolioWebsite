@@ -46,18 +46,19 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/#contact"
-              className="px-6 py-3 rounded-full bg-gradient-to-br from-[#f088c3] via-[#c36099] to-[#7b4b9f] hover:bg-slate-200 transition-all duration-300 text-white hover:text-slate-900 font-medium shadow-lg hover:shadow-xl text-center"
+              className="px-6 py-3 rounded-full bg-gradient-to-br from-[#f088c3] via-[#c36099] to-[#b072ea] hover:bg-slate-200 transition-all duration-300 text-white hover:text-slate-900 font-medium shadow-lg hover:shadow-xl text-center"
             >
               Hire Me
             </Link>
             <a
-              href="https://drive.google.com/file/d/1hjN4EZC5HslsXfhlpg448Lz-n-eiMfCX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MmvLjkzLLd-0AZ7ASb_eIfoT3d86qGkX/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-full bg-gradient-to-br from-[#f088c3] via-[#c36099] to-[#b072ea] hover:bg-slate-800 transition-all duration-300 text-white font-medium shadow-lg hover:shadow-xl text-center"
+              className="px-6 py-3 rounded-full bg-gradient-to-br from-[#f088c3] via-[#c36099] to-[#b072ea] hover:bg-slate-800 transition-all duration-300 text-white hover:text-slate-900 font-medium shadow-lg hover:shadow-xl text-center"
             >
               View Resume
             </a>
+            
           </div>
         </motion.div>
 
@@ -68,14 +69,15 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-12 sm:col-span-5 flex justify-center"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] sm:w-[200px] sm:h-[200px] lg:w-[500px] lg:h-[500px] relative overflow-hidden">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[500px] relative overflow-hidden">
             <Image
               src="/images/PortfolioPictureTwo.png"
               alt="Portfolio Picture"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-contain rounded-t-xl"
               style={{ objectFit: "cover" }}
-              width={300}
-              height={300}
+              width={400}
+              height={400}
+             
             />
           </div>
         </motion.div>

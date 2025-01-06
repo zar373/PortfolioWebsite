@@ -20,7 +20,7 @@ const projectsData = [
     description: "Gemini PDF Bot is a Streamlit-based chatbot that allows users to interact with PDF documents. It lets you upload a PDF, ask questions, and receive answers based on the document’s content, powered by Google’s Gemini AI and FAISS for vector storage. ",
     image: "/images/projects/GeminiPDFBot.png",
     tag: ["All", "ML/AI"],
-    skills: ["Python", "NLP", "FAISS,", "Streamlit"],
+    skills: ["Python", "NLP", "FAISS", "Streamlit"],
     gitUrl: "https://github.com/zar373/Gemini_PDF_Bot",
     previewUrl: "https://geminipdfbot-wujytut7zbbakajjqsxj95.streamlit.app/",
   },

@@ -11,8 +11,8 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, skills })
           <Image
             src={imgUrl}
             alt={title}
-            layout="fill" // Ensures image fills the container
-            objectFit="cover" // Makes sure the image covers the entire area without distortion
+            fill
+            style={{ objectFit: "cover" }}
             className="rounded-t-xl"
           />
         </div>

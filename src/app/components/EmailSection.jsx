@@ -22,7 +22,10 @@ const EmailSection = () => {
         <div className="flex gap-4">
           {/* GitHub Icon */}
           <Link href="https://github.com/zar373">
-            <Image src={GithubIcon} alt="Github Icon" className="h-8 w-8" />
+            <Image src={GithubIcon} 
+            alt="Github Icon" 
+            className="h-8 w-8" 
+            />
           </Link>
 
           {/* LinkedIn Icon */}
@@ -49,6 +52,7 @@ const EmailSection = () => {
             width={500}  // You can adjust the size
             height={500}
             className="rounded-t-xl"
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>

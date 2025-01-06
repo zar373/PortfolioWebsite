@@ -99,29 +99,22 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-wrap justify-center items-center gap-2 py-6">
+        <ProjectTag onClick={handleTagChange} name="All" isSelected={tag=== "All"} />
         <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
+        onClick={handleTagChange}
+        name="Data Engineering"
+        isSelected={tag === "Data Engineering"}
         />
         <ProjectTag
-          onClick={handleTagChange}
-          name="Data Engineering"
-          isSelected={tag === "Data Engineering"}
+        onClick={handleTagChange}
+        name="Data Analysis"
+        isSelected={tag === "Data Analysis"}
         />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Data Analysis"
-          isSelected={tag === "Data Analysis"}
+        <ProjectTag onClick={handleTagChange} name="ML/AI" isSelected={tag === "ML/AI"} 
         />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="ML/AI"
-          isSelected={tag === "ML/AI"}
+        </div>
 
-        />
-      </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
@@ -149,3 +142,5 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+// 
+

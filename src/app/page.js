@@ -9,18 +9,36 @@ import FooterSection from "./components/FooterSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121213]">
+    <main className="bg-[#121213] min-h-screen">
       <Navbar />
-      <div className="container mt-24 mx-auto px-12">
+      <div className="container mx-auto px-4 sm:px-12 py-4">
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
-        <FooterSection/>
+        <FooterSection />
         {/* <AchievementsSection /> */}
-
       </div>
     </main>
   );
 }
+
+// export default function Home() {
+//   return (
+//     <main className="bg-[#121213] min-h-screen">
+//       <Navbar />
+//       <div className="container mx-auto px-4 sm:px-12 py-4">
+//         <HeroSection />
+//         <AboutSection />
+//         <ProjectsSection />
+//         <EmailSection />
+//         <FooterSection />
+//         {/* <AchievementsSection /> */}
+//       </div>
+//     </main>
+//   );
+// }
+
+
+// flex min-h-screen flex-col
 // container mx-auto px-12 py-4
